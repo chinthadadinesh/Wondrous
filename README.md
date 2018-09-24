@@ -7,3 +7,4 @@ step6: click on import and click on "choosefile" and select file "wondrous.sql" 
 step7: open "db.js" file in editor make sure username,password of the database is correct.and save the file
 step8: go to project folder in commandprompt and click "npm start ".
 step9: now project is started.now project is running on "http://localhost:3000" and backend is running on "8080" port.
+ 
