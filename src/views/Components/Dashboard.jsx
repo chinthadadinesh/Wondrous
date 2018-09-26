@@ -263,7 +263,7 @@ this.getuservotes()
       .then(status => {
         if (status.code == 200) {
           this.setState({
-            posts: status.rows.slice(0, 8),
+            posts: status.rows,
             allposts: status.rows,
            errorOnLoad: false,
           })
